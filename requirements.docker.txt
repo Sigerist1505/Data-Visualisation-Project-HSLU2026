@@ -1,0 +1,20 @@
+# Full dependencies for Docker (Streamlit + Jupyter)
+# Slim version for Streamlit Cloud is in requirements.txt
+
+# ── Core data stack ───────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+scipy>=1.11.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+plotly>=5.20.0
+Pillow>=10.0.0
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+streamlit>=1.40.0
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+nbformat>=5.9.0

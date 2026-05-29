@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"   # Streamlit
+      - "8888:8888"   # Jupyter
+    volumes:
+      # Mount notebooks folder so changes persist on your machine
+      - ./notebooks:/app/notebooks
+      - ./data:/app/data
+    restart: unless-stopped

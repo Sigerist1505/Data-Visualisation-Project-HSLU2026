@@ -30,3 +30,9 @@ Thumbs.db
 # Environment variables
 .env
 ~$*
+
+# Private project documents (not for public repo)
+Prompts_Final.docx
+work_summary.xlsx
+docs/design_report.docx
+

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Large files not needed in image
+*.mp4
+*.mov
+
+# Office temp files
+~$*
+
+# Git
+.git/
+.gitignore
+
+# Sensitive / personal
+Prompts_Final.docx
+Prompts_Final.pdf
+work_summary.xlsx
